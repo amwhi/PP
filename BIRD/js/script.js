@@ -14,10 +14,6 @@ let birdImg, pipeImg; //groundImg, bgImg;
 
 function setup() {
   createCanvas(900, 650);
-  //game instructions
-    textSize(32);
-    fill(255);
-    text("tap", 100,100);
 
   birdImg = loadImage('../BIRD/assets/images/birdie.png');
   pipeImg = loadImage('../BIRD/assets/images/SKYLINE.png');
