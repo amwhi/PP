@@ -15,6 +15,7 @@ let birdImg, pipeImg; //groundImg, bgImg;
 function setup() {
   createCanvas(900, 650);
 
+
   birdImg = loadImage('../BIRD/assets/images/birdie.png');
   pipeImg = loadImage('../BIRD/assets/images/SKYLINE.png');
 //  groundImg = loadImage('ground.png');
@@ -27,6 +28,8 @@ function setup() {
   bird.addImage(birdImg);
 
 //  ground.addImage(groundImg);
+
+
 
   pipes = new Group();
   gameOver = true;
@@ -86,8 +89,12 @@ function draw() {
 //  if(camera.position.x > ground.position.x-ground.width+width/2)
 //    ground.position.x+=ground.width;
 
+
   background(164, 228, 255);
 
+  textSize(30);
+  text('click me', 300, 100);
+  fill(0);
 
   camera.off();
 //  image(bgImg, 0, GROUND_Y-190);
